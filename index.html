@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamscape Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dreamscape Gallery</h1>
+        <p>Explore the beauty of Vintage, Nature, Water World, Galaxy, and Wildlife</p>
+    </header>
+
+    <nav class="nav">
+        <button onclick="showGallery('vintage')">Vintage</button>
+        <button onclick="showGallery('nature')">Nature</button>
+        <button onclick="showGallery('waterworld')">Water World</button>
+        <button onclick="showGallery('galaxy')">Galaxy</button>
+        <button onclick="showGallery('wildlife')">Wildlife</button>
+    </nav>
+
+    <main>
+        <section id="vintage" class="gallery-container">
+            <div class="gallery-item"><img src="pexels-artur-roman-158558-534362.jpg" alt="Vintage 1"></div>
+            <div class="gallery-item"><img src="pexels-matthiaszomer-69020.jpg" alt="Vintage 4"></div>
+            <div class="gallery-item"><img src="pexels-pixabay-221299.jpg" alt="Vintage 5"></div>
+        </section>
+
+        <section id="nature" class="gallery-container">
+            <div class="gallery-item"><img src="pexels-tomfisk-30337232.jpg" alt="Nature 2"></div>
+            <div class="gallery-item"><img src="pexels-akos-szabo-145938-440731.jpg" alt="Nature 3"></div>
+            <div class="gallery-item"><img src="pexels-bri-schneiter-28802-346529.jpg" alt="Nature 4"></div>
+        </section>
+
+        <section id="waterworld" class="gallery-container">
+            <div class="gallery-item"><img src="pexels-tomfisk-668790.jpg" alt="Water World 2"></div>
+            <div class="gallery-item"><img src="pexels-mutecevvil-12572039.jpg" alt="Water World 3"></div>
+            <div class="gallery-item"><img src="pexels-francesco-ungaro-3684931.jpg" alt="Water World 4"></div>
+        </section>
+
+        <section id="galaxy" class="gallery-container">
+            <div class="gallery-item"><img src="pexels-frank-cone-140140-2291873.jpg" alt="Galaxy 2"></div>
+            <div class="gallery-item"><img src="pexels-pixabay-355465.jpg" alt="Galaxy 3"></div>
+            <div class="gallery-item"><img src="pexels-tobiasbjorkli-1693095.jpg" alt="Galaxy 4"></div>
+        </section>
+
+        <section id="wildlife" class="gallery-container">
+            <div class="gallery-item"><img src="pexels-andy-bear-grills-barker-565823-1362012.jpg" alt="Wildlife 1"></div>
+            <div class="gallery-item"><img src="pexels-frans-van-heerden-201846-631317.jpg" alt="Wildlife 3"></div>
+            <div class="gallery-item"><img src="pexels-francesco-ungaro-1233286.jpg" alt="Wildlife 4"></div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Dreamscape Gallery. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
